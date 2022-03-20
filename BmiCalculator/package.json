@@ -1,0 +1,24 @@
+{
+  "name": "bmicalculator",
+  "version": "1.0.0",
+  "description": "Project to calculate BMI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghazi-Khan/Node-Projects.git"
+  },
+  "author": "Ghazi Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghazi-Khan/Node-Projects/issues"
+  },
+  "homepage": "https://github.com/Ghazi-Khan/Node-Projects#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
