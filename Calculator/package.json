@@ -1,0 +1,28 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "This is calculator project",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghazi-Khan/Node-Projects.git"
+  },
+  "keywords": [
+    "Calculator",
+    "Ghazi",
+    "khan",
+    "projects"
+  ],
+  "author": "Ghazi Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghazi-Khan/Node-Projects/issues"
+  },
+  "homepage": "https://github.com/Ghazi-Khan/Node-Projects#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
