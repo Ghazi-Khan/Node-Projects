@@ -1,0 +1,23 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "First node-express project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghazi-Khan/Node-Projects.git"
+  },
+  "author": "Ghazi Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghazi-Khan/Node-Projects/issues"
+  },
+  "homepage": "https://github.com/Ghazi-Khan/Node-Projects#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
