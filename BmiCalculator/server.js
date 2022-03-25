@@ -3,8 +3,9 @@ const bodyParser = require("body-parser");
 const { getBmi } = require("./bmiCalculations");
 const app = express();
 
-
+// using express.static to load the static contain
 app.use(express.static(__dirname + '/resources'));
+
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", (req, res) => {
