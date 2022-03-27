@@ -2,7 +2,7 @@ const express = require('express');
 
 const route = express.Router();
 
-route.use('/', (req, res, next) => {
+route.get('/login', (req, res, next) => {
     console.log('home page');
 });
 
